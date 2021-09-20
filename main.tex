@@ -1,0 +1,141 @@
+\documentclass{article}
+\usepackage{siunitx}
+\usepackage[utf8]{inputenc}
+
+\title{Icy moons in the Solar System}
+\author{Tatiana Vybostokova }
+\date{June 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section*{Moon 1: 2-layered moon}
+\textbf{Input data}:
+\begin{itemize}
+    \item $R = 1500$ \SI{}{km}
+\textbf{Computed quantities}:
+    \item $MoI = 0.3464$
+    \item $\rho_i = 920$ \SI{}{kg/m^3}
+\end{itemize}
+\\
+\textbf{Ranges of unknown quantities}:
+\begin{itemize}
+    \item $\rho_r$ range $(2000,4050)$ \SI{}{kg/m^3} with step $=50$ \SI{}{kg/m^3}
+    \item $R$ range $(0,1500000)$ \SI{}{km} with step $50000$ \SI{}{km}
+\end{itemize}
+\\
+\textbf{Computed quantities}
+    \begin{itemize}
+        \item $\rho_r = 2550.0$ \SI{}{kg/m^3}
+        \item $R_r = 1300$ \SI{}{km}
+    \end{itemize}
+\\
+\textbf{Precision}
+\begin{itemize}
+    \item $|M_{com}-M| =$ \num{6.71e+18}\SI{}{kg}
+    \item $|MoI_{com}-MoI| =$ \num{0.0003}
+\end{itemize}
+
+   
+
+
+
+
+\section*{Moon 2: 3-layered moon}
+\textbf{Input data}:
+\begin{itemize}
+    \item $R = 1700$ \SI{}{km}
+    \item $R_0 = 1800$ \SI{}{km}
+    \item $M =$ \num{5.90e22} \SI{}{kg}
+    \item $MoI = 0.3273$
+    \item $\rho_i = 920$ \SI{}{kg/m^3}
+    \item $\rho_0 = 1100$ \SI{}{kg/m^3}
+\end{itemize}
+\\
+\textbf{Ranges of unknown quantities}:
+\begin{itemize}
+    \item $\rho_r$ range $(2000,4050)$ \SI{}{kg/m^3} with step $=50$ \SI{}{kg/m^3}
+    \item $R$ range $(0,1700000)$ \SI{}{km} with step $50000$ \SI{}{km}
+\end{itemize}
+\\
+\textbf{Computed quantities}:
+    \begin{itemize}
+        \item $\rho_r = 3400.0$ \SI{}{kg/m^3}
+        \item $R_r = 1500$ \SI{}{km}
+    \end{itemize}    
+\\
+\textbf{Precision}
+\begin{itemize}
+    \item $|M_{com}-M| =$ \num{3.06e+20}\SI{}{kg}
+    \item $|MoI_{com}-MoI| =$ \num{0.0023}
+\end{itemize}
+
+
+\section*{Moon 3: 4-layered}
+\textbf{Input data}:
+\begin{itemize}
+    \item $R = 2000$ \SI{}{km}
+    \item $R_0 = 1900$ \SI{}{km}
+    \item $M =$ \num{8.84e22} \SI{}{kg}
+    \item $MoI = 0.3182$
+    \item $\rho_i = 920$ \SI{}{kg/m^3}
+    \item $\rho_0 = 1100$ \SI{}{kg/m^3}
+    \item $\rho_r = 3500$ \SI{}{kg/m^3}
+    \item $\rho_c = 8000$ \SI{}{kg/m^3}
+\end{itemize}
+\\
+\textbf{Ranges of unknown quantities}:
+\begin{itemize}
+    \item $R$ range $(0,1900000)$ \SI{}{km} with step $50000$ \SI{}{km}
+\end{itemize}
+\\
+\textbf{Computed quantities}:
+    \begin{itemize}
+        \item $R_r = 1700$ \SI{}{km}
+        \item $R_c = 550$ \SI{}{km}
+    \end{itemize}    
+\\
+\textbf{Precision}
+\begin{itemize}
+    \item $|M_{com}-M| =$ \num{1.2802e+20}\SI{}{kg}
+    \item $|MoI_{com}-MoI| =$ \num{0.0045}
+\end{itemize}
+
+
+\section*{Moon 3: 4-layered}
+\textbf{Input data}:
+\begin{itemize}
+    \item $R = 3000$ \SI{}{km}
+    \item $R_0 = 2850$ \SI{}{km}
+    \item $M =$ \num{1.68e23} \SI{}{kg}
+    \item $MoI = 0.3374$
+    \item $\rho_i = 920$ \SI{}{kg/m^3}
+    \item $\rho_0 = 1100$ \SI{}{kg/m^3}
+    \item $\rho_{hp} = 1350$ \SI{}{kg/m^3}
+    \item $\rho_r = 2600$ \SI{}{kg/m^3}
+\end{itemize}
+\\
+\textbf{Ranges of unknown quantities}:
+\begin{itemize}
+    \item $R$ range $(0,2850000)$ \SI{}{km} with step $50000$ \SI{}{km}
+\end{itemize}
+\\
+\textbf{Computed quantities}:
+    \begin{itemize}
+        \item $R_r = 1750$ \SI{}{km}
+        \item $R_{hp} = 2600$ \SI{}{km}
+    \end{itemize}  
+\\
+\textbf{Precision}
+\begin{itemize}
+    \item $|M_{com}-M| =$ \num{2.9256e+19}\SI{}{kg}
+    \item $|MoI_{com}-MoI| =$ \num{0.0036}
+\end{itemize}
+
+\bibliographystyle{plain}
+
+\end{document}
